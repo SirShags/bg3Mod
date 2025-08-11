@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="00c9c3bb-cbfa-68c9-bfc3-bdd84eb24db0"/>
+            <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+            <attribute id="UUID" type="LSString" value="b3624589-4ff0-fd04-9c35-ef3c682e0c92"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(KiPoint,2,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45)"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="0c05ec1e-4309-4c4c-8222-30bb116e6724"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="7fa2bf1b-8439-4025-b524-c2fe3f07d81b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="c3e692a5-8a3e-490b-80c3-8dbcfddb33cb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="04317ddf-e90b-4f70-97e1-c1df50dc5657"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="5387d3d2-5cad-4fae-bc6d-c83d8e3ddd9b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="a188db8e-cd73-4e15-9ba4-fb8e696e09c7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="0df42fb2-d174-4f5f-97b2-31a99aaffa6a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="76a5ce6b-49d7-425a-b147-168f9cfeb99c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="2d725ddd-fd56-464b-91bf-08367f16fc01"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="887b4efe-b7f2-4502-a530-7292b1cd5066"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="702b19d2-9f45-4958-b0c7-8b36675ea5d5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="17c1a826-a946-4217-8a7e-dc9ab5563e11"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hab363617gcbd9g10bdg3b96g9f897489a03f" version="1">Jujutsu Sorcerer</content>
+  <content contentuid="h875ca6e3g7c87g8f01gd935gc80b9fe228a4" version="1">A Jujutsu Sorcerer can use cursed energy to cause extra damage</content>
+  <content contentuid="hce91428fg0879g4a69gccd5g66b428fc02d4" version="1">Cursed Strikes</content>
+  <content contentuid="h4eea73a6g23e2ga67ag60e7gdf7ee0bb62cf" version="2">Punch twice in quick succession dealing [1] and [2] for both strikes.</content>
+  <content contentuid="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1">Divergent Fist</content>
+  <content contentuid="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="1">Hit a target with your bare fists dealing [1].</content>
+</contentList>
