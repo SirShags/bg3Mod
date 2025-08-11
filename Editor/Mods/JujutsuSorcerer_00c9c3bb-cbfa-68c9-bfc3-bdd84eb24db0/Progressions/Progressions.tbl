@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0c05ec1e-4309-4c4c-8222-30bb116e6724" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(KiPoint,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7fa2bf1b-8439-4025-b524-c2fe3f07d81b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c3e692a5-8a3e-490b-80c3-8dbcfddb33cb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="04317ddf-e90b-4f70-97e1-c1df50dc5657" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5387d3d2-5cad-4fae-bc6d-c83d8e3ddd9b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a188db8e-cd73-4e15-9ba4-fb8e696e09c7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0df42fb2-d174-4f5f-97b2-31a99aaffa6a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="76a5ce6b-49d7-425a-b147-168f9cfeb99c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2d725ddd-fd56-464b-91bf-08367f16fc01" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="887b4efe-b7f2-4502-a530-7292b1cd5066" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="702b19d2-9f45-4958-b0c7-8b36675ea5d5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17c1a826-a946-4217-8a7e-dc9ab5563e11" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

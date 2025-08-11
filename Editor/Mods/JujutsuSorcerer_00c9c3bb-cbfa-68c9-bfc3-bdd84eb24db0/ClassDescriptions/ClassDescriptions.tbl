@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Jujutsu Sorcerer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab363617gcbd9g10bdg3b96g9f897489a03f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h875ca6e3g7c87g8f01gd935gc80b9fe228a4" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Monk" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="8" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
