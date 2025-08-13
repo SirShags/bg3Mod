@@ -16,6 +16,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ec43e15d-300d-461c-99c2-b134da92f410" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+        <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(KiPoint,2,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45)" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
         <field name="UUID" type="IdTableFieldDefinition" value="7fa2bf1b-8439-4025-b524-c2fe3f07d81b" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
@@ -32,6 +46,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="JujutsuSorcerer" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3a6404ba-879d-4941-9747-7aea4f0db6a9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -125,6 +140,14 @@
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4290db4d-4b4e-414e-a44f-2b8c1d877133" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TaijutsuMaster" />
       </fields>
     </stat_object>
   </stat_objects>

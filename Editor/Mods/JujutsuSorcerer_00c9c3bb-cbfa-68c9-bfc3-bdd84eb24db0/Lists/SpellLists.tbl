@@ -4,8 +4,15 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3b0920c-6215-4c35-a6f4-8ebec0ff1f45" />
-        <field name="Name" type="NameTableFieldDefinition" value="lvl_1_add_spells_jjk" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Flurry_of_Blows_Necrotic;Target_Divergent_Fist" />
+        <field name="Name" type="NameTableFieldDefinition" value="add_level_1_spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Divergent_Fist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a6404ba-879d-4941-9747-7aea4f0db6a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="add_level_3_spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Flurry_of_Blows_Necrotic" />
       </fields>
     </stat_object>
   </stat_objects>

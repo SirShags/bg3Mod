@@ -25,6 +25,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3a6404ba-879d-4941-9747-7aea4f0db6a9)"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="c3e692a5-8a3e-490b-80c3-8dbcfddb33cb"/>
                 </node>
@@ -93,6 +94,22 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="17c1a826-a946-4217-8a7e-dc9ab5563e11"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(KiPoint,2,0)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45)"/>
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="ec43e15d-300d-461c-99c2-b134da92f410"/>
                 </node>
             </children>
         </node>

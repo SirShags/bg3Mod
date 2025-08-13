@@ -11,7 +11,32 @@
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
         <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
-        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Monk" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="8" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cdcb2a6e-1b86-45ba-8a73-2f2109399a6c" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="TaijutsuMaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd8302c7g0b81g7937g8714g2bc94667fc30" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3336c987g9a1cg7dcbg31bcg36b00de4744f" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="4290db4d-4b4e-414e-a44f-2b8c1d877133" />
+        <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Monk" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
         <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />

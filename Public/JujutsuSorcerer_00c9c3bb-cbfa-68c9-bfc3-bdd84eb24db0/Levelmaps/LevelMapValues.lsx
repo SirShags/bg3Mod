@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Name" type="FixedString" value="Cursed_Damage"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5"/>
+                    <attribute id="UUID" type="guid" value="0a12cba1-da7f-402d-bbc2-8fe14b8b45c7"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
