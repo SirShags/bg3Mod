@@ -104,7 +104,7 @@
                     <attribute id="FileSize" type="uint64" value="608392"/>
                     <attribute id="Folder" type="LSString" value="JujutsuSorcerer_00c9c3bb-cbfa-68c9-bfc3-bdd84eb24db0"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="923b61cfbc14550846db4b0f2ffb93e5"/>
+                    <attribute id="MD5" type="LSString" value="a3bea422f35aab7aa75737fa01a64983"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Jujutsu Sorcerer"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -112,7 +112,7 @@
                     <attribute id="PublishHandle" type="uint64" value="0"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="00c9c3bb-cbfa-68c9-bfc3-bdd84eb24db0"/>
-                    <attribute id="Version64" type="int64" value="36028797018963986"/>
+                    <attribute id="Version64" type="int64" value="36028797018963988"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718583632"/>

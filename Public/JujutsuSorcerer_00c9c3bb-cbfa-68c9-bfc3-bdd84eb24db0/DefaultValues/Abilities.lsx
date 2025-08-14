@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="UUID" type="guid" value="f0a17a2e-0ea2-47de-87da-bece99005519"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
