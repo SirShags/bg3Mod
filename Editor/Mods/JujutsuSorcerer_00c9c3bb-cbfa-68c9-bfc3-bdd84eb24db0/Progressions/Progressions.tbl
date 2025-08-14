@@ -148,6 +148,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="4290db4d-4b4e-414e-a44f-2b8c1d877133" />
         <field name="FSName" type="StringTableFieldDefinition" value="TaijutsuMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>

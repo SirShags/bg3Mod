@@ -18,9 +18,10 @@
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="Jujutsu Sorcerer"/>
+                    <attribute id="Name" type="FixedString" value="JujutsuSorcerer"/>
                     <attribute id="PrimaryAbility" type="uint8" value="6"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="2"/>
                     <attribute id="UUID" type="guid" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5"/>
                 </node>

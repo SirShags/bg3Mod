@@ -5,7 +5,7 @@
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Jujutsu Sorcerer" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="JujutsuSorcerer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab363617gcbd9g10bdg3b96g9f897489a03f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h875ca6e3g7c87g8f01gd935gc80b9fe228a4" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
@@ -22,6 +22,7 @@
         <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
         <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
         <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Monk" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
