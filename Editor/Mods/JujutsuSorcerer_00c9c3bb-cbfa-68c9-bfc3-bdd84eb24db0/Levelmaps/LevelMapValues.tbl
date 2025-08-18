@@ -5,6 +5,18 @@
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Damage" />
         <field name="UUID" type="IdTableFieldDefinition" value="0a12cba1-da7f-402d-bbc2-8fe14b8b45c7" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level12" type="StringTableFieldDefinition" value="1d10" />
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
       </fields>
     </stat_object>

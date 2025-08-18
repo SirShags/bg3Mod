@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d79664a5-656f-41f8-8609-4813b8782eee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Monk_Animation" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="d559367e-4d27-402a-8898-a72fd5f20c8b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb3c7293-e8d9-46f2-891c-dec8c8db6494" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5412dd8ag46b3ge3c7g4c8cg658e82937aab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc122a7cage9bbg42a1g991ag532bc354a423" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(7.6)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredMovement_3" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement, 7.6, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17bef892-0dc1-4172-accc-174f78bb9571" />
+        <field name="Name" type="NameTableFieldDefinition" value="CursedEnergy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc743c122g2db3ga1deg69bdge4dbb0bd7d10" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_KiFlurryOfBlows" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f30dc25-30a8-48d7-9084-815ca5f39e3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmouredDefense_JujutsuSorcerer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h459b20aeg0f76g9463g4a12g7312bbf14d39" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6de6d07g8da6g78b6g4e64gf9fedb6bfab4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredDefense_Monk" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Charisma);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

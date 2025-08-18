@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3b0920c-6215-4c35-a6f4-8ebec0ff1f45" />
         <field name="Name" type="NameTableFieldDefinition" value="add_level_1_spells" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Divergent_Fist" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Divergent_Fist;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

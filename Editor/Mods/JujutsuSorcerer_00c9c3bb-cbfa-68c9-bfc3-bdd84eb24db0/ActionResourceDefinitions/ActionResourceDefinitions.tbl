@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1f196a87-8d84-424d-badc-a3d11c5b8d23">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6ee8c730-f375-4cd0-b614-0d92cae87b1b" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CursedEnergy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h139d9f59gf787gcd8dg09c7g3f7d3c775b1a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0fa484f5g9db5g17c8gdba2gd3a9a4e7a757" version="2" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

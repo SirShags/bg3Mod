@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2c">
+<stats stat_object_definition_id="db45b32f-877a-45bd-afb5-32e7d415d1e6">
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="UUID" type="IdTableFieldDefinition" value="f0a17a2e-0ea2-47de-87da-bece99005519" />
+        <field name="UUID" type="IdTableFieldDefinition" value="490f5798-8bd1-4b07-aaa0-ff8604d60578" />
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
-        <field name="DefaultValues" type="StringTableFieldDefinition" value="Charisma;Dexterity" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Arcana;Perception;" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Jujutsu Sorcerer" />
         <field name="SelectorId" type="StringTableFieldDefinition" value="AbilityBonus" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Jujutsu Sorcerer Ability Bonus" />
       </fields>
     </stat_object>
   </stat_objects>

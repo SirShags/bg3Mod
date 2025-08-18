@@ -3,32 +3,30 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e25de0df-4020-4823-a37a-fe056dd3befe" />
-        <field name="Name" type="NameTableFieldDefinition" value="Flurry_of_Blows_Necrotic" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);Cast2[DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);];" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic)" />
-        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce91428fg0879g4a69gccd5g66b428fc02d4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4eea73a6g23e2ga67ag60e7gdf7ee0bb62cf" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4+DexterityModifier, Bludgeoning);DealDamage(1d4 , Necrotic)" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack);Cast2[Attack(AttackType.MeleeUnarmedAttack )]" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d1d4327c-b93d-4ad3-b026-694eabe7448f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divergent_Fist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d1d4327c-b93d-4ad3-b026-694eabe7448f" />
-        <field name="Name" type="NameTableFieldDefinition" value="Divergent_Fist" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((1d4)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic)" />
-        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic)" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e25de0df-4020-4823-a37a-fe056dd3befe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Flurry_of_Blows_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);Cast2[DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);];" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);DealDamage(1d4 , Necrotic);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -1,19 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
-  <stat_objects>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a457419f-8fae-44bf-8315-48b87994bef0" />
-        <field name="Name" type="NameTableFieldDefinition" value="JujutsuSorcerer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5d3c7d38-4f9a-4581-9dc4-2a7e62c38f7b" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="17" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="8" />
-      </fields>
-    </stat_object>
-  </stat_objects>
+  <stat_objects />
 </stats>

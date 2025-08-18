@@ -5,7 +5,18 @@
   <content contentuid="hce91428fg0879g4a69gccd5g66b428fc02d4" version="1">Cursed Strikes</content>
   <content contentuid="h4eea73a6g23e2ga67ag60e7gdf7ee0bb62cf" version="2">Punch twice in quick succession dealing [1] and [2] for both strikes.</content>
   <content contentuid="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1">Divergent Fist</content>
-  <content contentuid="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="1">Hit a target with your bare fists dealing [1].</content>
+  <content contentuid="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2">Hit a target with a quick strike dealing [1] and [2].</content>
   <content contentuid="hcd8302c7g0b81g7937g8714g2bc94667fc30" version="1">Taijutsu Master</content>
   <content contentuid="h3336c987g9a1cg7dcbg31bcg36b00de4744f" version="1">You are master in hand-to-hand combats, coating your fists in cursed energy to cause damage to your enemy.</content>
+  <content contentuid="h89335f0agf452g3ec5g7bb6g8b44a16917d2" version="1">Cursed Strikes</content>
+  <content contentuid="hb41af3edg50dfgf535g3fffgaf3a3498caaa" version="1">%%% Tech -Used for unlocking and removing Flurry of Blows Necrotic spell for Jujutsue Sorcerer</content>
+  <content contentuid="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="1">Cursed Strikes</content>
+  <content contentuid="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1">Hit a target with two quick strikes dealing [1] and [2] for both strikes</content>
+  <content contentuid="h5412dd8ag46b3ge3c7g4c8cg658e82937aab" version="1">Unarmored Movement</content>
+  <content contentuid="hc122a7cage9bbg42a1g991ag532bc354a423" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] while you are not wearing armour or using a shield.</content>
+  <content contentuid="hc743c122g2db3ga1deg69bdge4dbb0bd7d10" version="1">Cursed Energy</content>
+  <content contentuid="h139d9f59gf787gcd8dg09c7g3f7d3c775b1a" version="1">Cursed Energy</content>
+  <content contentuid="h0fa484f5g9db5g17c8gdba2gd3a9a4e7a757" version="2">Cursed energy is a supernatural energy produced by negative emotions in all living beings</content>
+  <content contentuid="h459b20aeg0f76g9463g4a12g7312bbf14d39" version="1">Unarmoured Defense</content>
+  <content contentuid="he6de6d07g8da6g78b6g4e64gf9fedb6bfab4" version="1">Your body is as resilient as any armour from hardening it with Cursed Energy. While not wearing armour, you add your Dexterity and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 </contentList>

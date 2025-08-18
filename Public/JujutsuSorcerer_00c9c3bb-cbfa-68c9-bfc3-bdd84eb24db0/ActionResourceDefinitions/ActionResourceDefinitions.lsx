@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h0fa484f5g9db5g17c8gdba2gd3a9a4e7a757" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h139d9f59gf787gcd8dg09c7g3f7d3c775b1a" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="CursedEnergy"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="6ee8c730-f375-4cd0-b614-0d92cae87b1b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
