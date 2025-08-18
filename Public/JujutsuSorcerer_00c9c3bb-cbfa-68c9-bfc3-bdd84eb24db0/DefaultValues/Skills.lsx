@@ -5,9 +5,8 @@
         <node id="root">
             <children>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Arcana;Perception;"/>
+                    <attribute id="Add" type="LSString" value="Arcana;Athletics"/>
                     <attribute id="Level" type="int32" value="1"/>
-                    <attribute id="SelectorId" type="LSString" value="AbilityBonus"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="490f5798-8bd1-4b07-aaa0-ff8604d60578"/>
                 </node>

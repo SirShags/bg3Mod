@@ -11,7 +11,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;Cursed_Monk_Animation;UnarmoredMovement_1;UnarmouredDefense_JujutsuSorcerer" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(CursedEnergy,50,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019, AbilityBonus, 2, 1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019,AbilityBonus,2,1);SelectSkills(958927a2-071d-4332-a99b-bd6036616d8f,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -23,8 +23,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;Cursed_Monk_Animation;UnarmoredMovement_1;UnarmouredDefense_JujutsuSorcerer" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(CursedEnergy,50,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019, AbilityBonus, 2, 1);" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>

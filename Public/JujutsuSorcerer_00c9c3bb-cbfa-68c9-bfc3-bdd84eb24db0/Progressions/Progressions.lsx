@@ -10,18 +10,16 @@
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="PassivesAdded" type="LSString" value="MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;Cursed_Monk_Animation;UnarmoredMovement_1;UnarmouredDefense_JujutsuSorcerer"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019, AbilityBonus, 2, 1);"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019,AbilityBonus,2,1);SelectSkills(958927a2-071d-4332-a99b-bd6036616d8f,2)"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="0c05ec1e-4309-4c4c-8222-30bb116e6724"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(CursedEnergy,50,0)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="PassivesAdded" type="LSString" value="MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;Cursed_Monk_Animation;UnarmoredMovement_1;UnarmouredDefense_JujutsuSorcerer"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019, AbilityBonus, 2, 1);"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="ec43e15d-300d-461c-99c2-b134da92f410"/>
                 </node>
