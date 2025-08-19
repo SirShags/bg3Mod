@@ -24,15 +24,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="17bef892-0dc1-4172-accc-174f78bb9571" />
-        <field name="Name" type="NameTableFieldDefinition" value="CursedEnergy" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc743c122g2db3ga1deg69bdge4dbb0bd7d10" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_KiFlurryOfBlows" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4f30dc25-30a8-48d7-9084-815ca5f39e3e" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmouredDefense_JujutsuSorcerer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h459b20aeg0f76g9463g4a12g7312bbf14d39" version="1" />
@@ -42,6 +33,18 @@
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94813510-030d-4107-b3d3-d2255bcbdc23" />
+        <field name="Name" type="NameTableFieldDefinition" value="CursedEnergyModifier" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d99d7b6gb1e1ga8e6g742fgf013c318296a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_KiFlurryOfBlows" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(AbilityGreaterThan(&quot;Charisma&quot;,11,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,13,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,15,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,17,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,19,context.Source));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CursedEnergy,1,0);" />
       </fields>
     </stat_object>
   </stat_objects>

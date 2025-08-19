@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d1d4327c-b93d-4ad3-b026-694eabe7448f" />
         <field name="Name" type="NameTableFieldDefinition" value="Divergent_Fist" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2" />

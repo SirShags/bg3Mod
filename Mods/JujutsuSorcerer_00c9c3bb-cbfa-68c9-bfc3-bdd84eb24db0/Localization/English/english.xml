@@ -19,4 +19,6 @@
   <content contentuid="h0fa484f5g9db5g17c8gdba2gd3a9a4e7a757" version="2">Cursed energy is a supernatural energy produced by negative emotions in all living beings</content>
   <content contentuid="h459b20aeg0f76g9463g4a12g7312bbf14d39" version="1">Unarmoured Defense</content>
   <content contentuid="he6de6d07g8da6g78b6g4e64gf9fedb6bfab4" version="1">Your body is as resilient as any armour from hardening it with Cursed Energy. While not wearing armour, you add your Dexterity and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+  <content contentuid="he1a21eb4g211bg7af7gba44gcdce4a52b3fc" version="1">Cursed Energy Increase</content>
+  <content contentuid="h0d99d7b6gb1e1ga8e6g742fgf013c318296a" version="1">CursedEnergyModifier</content>
 </contentList>
