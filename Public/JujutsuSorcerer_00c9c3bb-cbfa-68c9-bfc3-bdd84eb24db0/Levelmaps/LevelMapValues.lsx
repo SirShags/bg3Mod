@@ -21,6 +21,23 @@
                     <attribute id="PreferredClassUUID" type="guid" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5"/>
                     <attribute id="UUID" type="guid" value="0a12cba1-da7f-402d-bbc2-8fe14b8b45c7"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level10" type="LSString" value="1d6"/>
+                    <attribute id="Level11" type="LSString" value="1d8"/>
+                    <attribute id="Level12" type="LSString" value="1d8"/>
+                    <attribute id="Level2" type="LSString" value="1d4"/>
+                    <attribute id="Level3" type="LSString" value="1d4"/>
+                    <attribute id="Level4" type="LSString" value="1d4"/>
+                    <attribute id="Level5" type="LSString" value="1d4"/>
+                    <attribute id="Level6" type="LSString" value="1d6"/>
+                    <attribute id="Level7" type="LSString" value="1d6"/>
+                    <attribute id="Level8" type="LSString" value="1d6"/>
+                    <attribute id="Level9" type="LSString" value="1d6"/>
+                    <attribute id="Name" type="FixedString" value="Necrotic_Damage"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5"/>
+                    <attribute id="UUID" type="guid" value="1abbe602-cee9-4256-a91e-89544d5e9938"/>
+                </node>
             </children>
         </node>
     </region>

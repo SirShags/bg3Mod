@@ -41,10 +41,40 @@
         <field name="Name" type="NameTableFieldDefinition" value="CursedEnergyModifier" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d99d7b6gb1e1ga8e6g742fgf013c318296a" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_KiFlurryOfBlows" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(AbilityGreaterThan(&quot;Charisma&quot;,11,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,13,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,15,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,17,context.Source));IF(AbilityGreaterThan(&quot;Charisma&quot;,19,context.Source));" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CursedEnergy,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(AbilityGreaterThan('Charisma',11,context.Source)):ActionResource(CursedEnergy,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(CursedEnergy,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(CursedEnergy,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(CursedEnergy,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(CursedEnergy,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c7b4e61-c9db-4a18-a80e-d29c482338a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Taijutsu_DextrousUnarmedAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2c8917a-2082-475d-b1d7-27fc8eb5ee40" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3958fe61gc5bega411g654eg864e80ca7f87" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he932466dgca3fgfd39g4a61g18385aa0eebb" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff671bae-7b33-4774-bb65-c2fac930e2cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Taijutsu_UnarmedDamage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35af45a5-74a5-474d-b8db-506e4d92bcdf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25c585c2gd842g3346g61c7ga56625ef159d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94988a2dgb4ffg7852g3dbbg7fdeed53e7bc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Cursed_Damage), Bludgeoning)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponDamageDiceOverride(LevelMapValue(Cursed_Damage));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="412d22f9-27a0-4427-b656-2a031ac84e8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Taijutsu_BonusUnarmedStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e277251ga539g7a91g6ab3g035ad7592622" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33c774dfg3774g36cfg2b25gfbb17da57752" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Cursed_Damage), Bludgeoning)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and IsMonkWeaponAttack() and not SpellId('Target_UnarmedStrike_JujutsuSorcerer');" />
       </fields>
     </stat_object>
   </stat_objects>

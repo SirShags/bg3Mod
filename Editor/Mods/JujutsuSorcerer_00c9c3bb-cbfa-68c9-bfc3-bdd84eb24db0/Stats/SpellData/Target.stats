@@ -6,11 +6,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d1d4327c-b93d-4ad3-b026-694eabe7448f" />
         <field name="Name" type="NameTableFieldDefinition" value="Divergent_Fist" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
@@ -21,12 +21,92 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e25de0df-4020-4823-a37a-fe056dd3befe" />
         <field name="Name" type="NameTableFieldDefinition" value="Flurry_of_Blows_Necrotic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="1" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);Cast2[DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage(1d4 , Necrotic);];" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);DealDamage(1d4 , Necrotic);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);Cast2[DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);];" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(1d4 , Necrotic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25d3f283-08e3-44de-9926-211c2a3217ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedStrike_JujutsuSorcerer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a35a7bb-7e69-40fa-8936-6cde46310451" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage) , Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efeefc3b-fc88-4a64-afc8-a554b528447c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="493951ca-950e-41fc-b0fe-a3f7150d6bc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e06fece4-0016-4dbc-96c8-57a1995a4b12" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3acab6e2-6d4b-4400-8659-48e6374f6b83" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bacea183-da19-410b-a2eb-c63adfa296de" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Armour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14e30df8-87b9-4aaf-b41a-3e5318cdf335" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Armour_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7553840b-1036-4e22-8995-89476ab55731" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Armour_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28035210-5faa-4bc9-a877-7c28d1f1b652" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Armour_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc965b11-22a2-4c42-9dc0-9b040f777abe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Weapon_Enhancement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da5e9b7e-bc53-46d6-91ab-6afc863129ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Weapon_Enhancement_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e67d482-ca22-4971-9a24-2a317d9d8f49" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Weapon_Enhancement_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2cb3e25-cbe7-4dc1-bfcb-a6c9a6c858d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Weapon_Enhancement_3" />
       </fields>
     </stat_object>
   </stat_objects>

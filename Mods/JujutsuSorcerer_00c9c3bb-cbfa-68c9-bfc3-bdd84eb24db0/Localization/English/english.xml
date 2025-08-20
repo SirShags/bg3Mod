@@ -10,7 +10,7 @@
   <content contentuid="h3336c987g9a1cg7dcbg31bcg36b00de4744f" version="1">You are master in hand-to-hand combats, coating your fists in cursed energy to cause damage to your enemy.</content>
   <content contentuid="h89335f0agf452g3ec5g7bb6g8b44a16917d2" version="1">Cursed Strikes</content>
   <content contentuid="hb41af3edg50dfgf535g3fffgaf3a3498caaa" version="1">%%% Tech -Used for unlocking and removing Flurry of Blows Necrotic spell for Jujutsue Sorcerer</content>
-  <content contentuid="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="1">Cursed Strikes</content>
+  <content contentuid="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="2">Cursed Combo</content>
   <content contentuid="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1">Hit a target with two quick strikes dealing [1] and [2] for both strikes</content>
   <content contentuid="h5412dd8ag46b3ge3c7g4c8cg658e82937aab" version="1">Unarmored Movement</content>
   <content contentuid="hc122a7cage9bbg42a1g991ag532bc354a423" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] while you are not wearing armour or using a shield.</content>
@@ -21,4 +21,10 @@
   <content contentuid="he6de6d07g8da6g78b6g4e64gf9fedb6bfab4" version="1">Your body is as resilient as any armour from hardening it with Cursed Energy. While not wearing armour, you add your Dexterity and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
   <content contentuid="he1a21eb4g211bg7af7gba44gcdce4a52b3fc" version="1">Cursed Energy Increase</content>
   <content contentuid="h0d99d7b6gb1e1ga8e6g742fgf013c318296a" version="1">CursedEnergyModifier</content>
+  <content contentuid="h3958fe61gc5bega411g654eg864e80ca7f87" version="1">Taijutsu: Dextrous Strikes</content>
+  <content contentuid="he932466dgca3fgfd39g4a61g18385aa0eebb" version="1">Attacks with &lt;LSTag Tooltip="JujutsuSorcererWeapons"&gt;Jujutsu Sorcerer weapons&lt;/LSTag&gt; and unarmed attacks scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher.</content>
+  <content contentuid="h25c585c2gd842g3346g61c7ga56625ef159d" version="1">Taijutsu: Strike Mastery</content>
+  <content contentuid="h94988a2dgb4ffg7852g3dbbg7fdeed53e7bc" version="1">Attacks with &lt;LSTag Tooltip="JujutsuSorcererWeapon"&gt;Jujutsu Sorcerer Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher. </content>
+  <content contentuid="h4e277251ga539g7a91g6ab3g035ad7592622" version="1">Taijutsu: Secondary Strike</content>
+  <content contentuid="h33c774dfg3774g36cfg2b25gfbb17da57752" version="1">After making an attack with a &lt;LSTag Tooltip="JujutsuSorcererWeapon"&gt;Jujutsu Sorcerer Weapon&lt;/LSTag&gt; or while unarmed, you can make another unarmed attack as a bonus action.</content>
 </contentList>

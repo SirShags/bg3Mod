@@ -20,5 +20,24 @@
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="Necrotic_Damage" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1abbe602-cee9-4256-a91e-89544d5e9938" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="b14a2f8e-6630-4a98-a847-4af731e9fbd5" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level12" type="StringTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
