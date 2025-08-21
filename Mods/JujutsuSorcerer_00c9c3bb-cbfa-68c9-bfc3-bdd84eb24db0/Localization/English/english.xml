@@ -27,4 +27,8 @@
   <content contentuid="h94988a2dgb4ffg7852g3dbbg7fdeed53e7bc" version="1">Attacks with &lt;LSTag Tooltip="JujutsuSorcererWeapon"&gt;Jujutsu Sorcerer Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher. </content>
   <content contentuid="h4e277251ga539g7a91g6ab3g035ad7592622" version="1">Taijutsu: Secondary Strike</content>
   <content contentuid="h33c774dfg3774g36cfg2b25gfbb17da57752" version="1">After making an attack with a &lt;LSTag Tooltip="JujutsuSorcererWeapon"&gt;Jujutsu Sorcerer Weapon&lt;/LSTag&gt; or while unarmed, you can make another unarmed attack as a bonus action.</content>
+  <content contentuid="h12dfec6dg6288g721cg516cg540975d69d1f" version="1">Cursed Strike</content>
+  <content contentuid="h0bc0a225g6ba7g77ecga1adg67ffbe890d04" version="1">Cursed Strike: Light Strike</content>
+  <content contentuid="h71691f97g2281g1e33gf030g0bfa3ae77fd8" version="1">Cursed Strike: Good Strike</content>
+  <content contentuid="h77556badga693g05ebg2375gb378f201f5c1" version="1">Cursed Strike: Greater Strike</content>
 </contentList>

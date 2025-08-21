@@ -28,22 +28,6 @@ data "SpellType" "Target"
 using "Target_UnarmedStrike_Monk"
 data "SpellSuccess" "DealDamage((LevelMapValue(Cursed_Damage) , Bludgeoning);"
 
-new entry "Target_Cursed_Strike"
-type "SpellData"
-data "SpellType" "Target"
-
-new entry "Target_Cursed_Strike_1"
-type "SpellData"
-data "SpellType" "Target"
-
-new entry "Target_Cursed_Strike_2"
-type "SpellData"
-data "SpellType" "Target"
-
-new entry "Target_Cursed_Strike_3"
-type "SpellData"
-data "SpellType" "Target"
-
 new entry "Target_Cursed_Armour"
 type "SpellData"
 data "SpellType" "Target"

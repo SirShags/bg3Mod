@@ -1,0 +1,48 @@
+new entry "Shout_Cursed_Energy"
+type "SpellData"
+data "SpellType" "Shout"
+data "ContainerSpells" "Cursed_Energy_1;Cursed_Energy_2;Cursed_Energy_3;"
+data "DisplayName" "h12dfec6dg6288g721cg516cg540975d69d1f;1"
+
+new entry "Shout_Cursed_Energy_1"
+type "SpellData"
+data "SpellType" "Shout"
+data "TargetConditions" "Self();"
+data "DisplayName" "h0bc0a225g6ba7g77ecga1adg67ffbe890d04;1"
+
+new entry "Shout_Cursed_Energy_2"
+type "SpellData"
+data "SpellType" "Shout"
+data "TargetConditions" "Self()"
+data "DisplayName" "h71691f97g2281g1e33gf030g0bfa3ae77fd8;1"
+
+new entry "Shout_Cursed_Energy_3"
+type "SpellData"
+data "SpellType" "Shout"
+data "TargetConditions" "Self()"
+data "DisplayName" "h77556badga693g05ebg2375gb378f201f5c1;1"
+
+new entry "Shout_New_Stat_3"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_New_Stat_4"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_New_Stat_5"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_New_Stat_6"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_New_Stat_7"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_New_Stat_8"
+type "SpellData"
+data "SpellType" "Shout"
+

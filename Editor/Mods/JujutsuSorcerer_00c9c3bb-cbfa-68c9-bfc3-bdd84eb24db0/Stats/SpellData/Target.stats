@@ -39,30 +39,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="efeefc3b-fc88-4a64-afc8-a554b528447c" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="493951ca-950e-41fc-b0fe-a3f7150d6bc3" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e06fece4-0016-4dbc-96c8-57a1995a4b12" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_2" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3acab6e2-6d4b-4400-8659-48e6374f6b83" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bacea183-da19-410b-a2eb-c63adfa296de" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Armour" />
       </fields>
