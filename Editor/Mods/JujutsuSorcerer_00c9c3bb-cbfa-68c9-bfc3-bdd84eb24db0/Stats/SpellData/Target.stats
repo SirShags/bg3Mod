@@ -94,7 +94,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Cursed_Strike_1;Target_Cursed_Strike_2;Target_Cursed_Strike_3;" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bbb54d0g7549ge850g5b3eg814e4b44246c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h03fd21e6ge95fg6254gd6b4g49022aa4d2e1" version="1" />
@@ -102,13 +102,14 @@
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c68c0e78-d893-4bc3-a303-936400b49e8d" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_1, 100, 5);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_1, 100, 5);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h916ddb8fg98dag739cg7f36gab50d2922e7f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbecbde17g1b75g0242gef44g3632e026d698" version="2" />
@@ -125,13 +126,15 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7a47303a-4b00-4e2c-8ccc-15829f9029c2" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_2, 100, 5);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_2, 100, 5);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h980e963dg5ab9gebdfg0005gd532d81edd8c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1984f894g5991g52c4g31aagdbe84cfa4c78" version="2" />
@@ -148,13 +151,15 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6ba4b9c8-edfb-4338-8a20-8e559adacd64" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_3" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_3, 100, 5);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_3, 100, 5);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a2e3b6egd480g3c55g0ea6gbf2c8a87ca59" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0bdcdb78g217egfd31ge468gbd287040a80e" version="2" />
@@ -171,6 +176,8 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
       </fields>
     </stat_object>
   </stat_objects>
