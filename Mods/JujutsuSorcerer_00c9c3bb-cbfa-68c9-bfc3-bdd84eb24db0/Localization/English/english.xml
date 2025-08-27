@@ -31,4 +31,18 @@
   <content contentuid="h0bc0a225g6ba7g77ecga1adg67ffbe890d04" version="1">Cursed Strike: Light Strike</content>
   <content contentuid="h71691f97g2281g1e33gf030g0bfa3ae77fd8" version="1">Cursed Strike: Good Strike</content>
   <content contentuid="h77556badga693g05ebg2375gb378f201f5c1" version="1">Cursed Strike: Greater Strike</content>
+  <content contentuid="h0bbb54d0g7549ge850g5b3eg814e4b44246c" version="1">Cursed Strike</content>
+  <content contentuid="h03fd21e6ge95fg6254gd6b4g49022aa4d2e1" version="1">Deals additional damage based on how many cursed energy points are spent</content>
+  <content contentuid="h916ddb8fg98dag739cg7f36gab50d2922e7f" version="1">Cursed Strike: Small Boost</content>
+  <content contentuid="hbecbde17g1b75g0242gef44g3632e026d698" version="2">Spend 1 energy point for an additional [1]</content>
+  <content contentuid="h980e963dg5ab9gebdfg0005gd532d81edd8c" version="1">Cursed Strike: Medium Boost</content>
+  <content contentuid="h1984f894g5991g52c4g31aagdbe84cfa4c78" version="2">Spend 2 energy point for an additional [1]</content>
+  <content contentuid="h9a2e3b6egd480g3c55g0ea6gbf2c8a87ca59" version="1">Cursed Strike: Large Boost</content>
+  <content contentuid="h0bdcdb78g217egfd31ge468gbd287040a80e" version="2">Spend 3 energy point for an additional [1]</content>
+  <content contentuid="h97abc5e3g5145g4de7g5bc1g324024328293" version="1">Cursed Strike: Small Boost</content>
+  <content contentuid="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="1">Spend 1 energy point for an additional [1]</content>
+  <content contentuid="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1">Cursed Strike: Medium Boost</content>
+  <content contentuid="h98d038aag0269g1b67g9a31g5e868e476219" version="1">Spend 2 energy point for an additional 2d4 damage</content>
+  <content contentuid="h983c4a21g37dagc834ga03ag130b92538445" version="1">Cursed Strike: Large Boost</content>
+  <content contentuid="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="1">Spend 3 energy point for an additional 3d4 damage</content>
 </contentList>

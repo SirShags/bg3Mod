@@ -14,6 +14,11 @@
                     <attribute id="Spells" type="LSString" value="Target_Flurry_of_Blows_Necrotic"/>
                     <attribute id="UUID" type="guid" value="3a6404ba-879d-4941-9747-7aea4f0db6a9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="add_level_2_spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cursed_Strike;"/>
+                    <attribute id="UUID" type="guid" value="a2baff90-26c9-4350-ac5f-74a2a78375da"/>
+                </node>
             </children>
         </node>
     </region>
