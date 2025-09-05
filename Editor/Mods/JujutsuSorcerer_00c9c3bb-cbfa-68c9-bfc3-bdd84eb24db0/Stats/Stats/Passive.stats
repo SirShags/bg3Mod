@@ -6,6 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d79664a5-656f-41f8-8609-4813b8782eee" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Monk_Animation" />
         <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="d559367e-4d27-402a-8898-a72fd5f20c8b" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

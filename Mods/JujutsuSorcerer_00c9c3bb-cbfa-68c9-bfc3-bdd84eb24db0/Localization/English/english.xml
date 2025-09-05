@@ -42,7 +42,15 @@
   <content contentuid="h97abc5e3g5145g4de7g5bc1g324024328293" version="1">Cursed Strike: Small Boost</content>
   <content contentuid="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="1">Spend 1 energy point for an additional [1]</content>
   <content contentuid="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1">Cursed Strike: Medium Boost</content>
-  <content contentuid="h98d038aag0269g1b67g9a31g5e868e476219" version="1">Spend 2 energy point for an additional 2d4 damage</content>
+  <content contentuid="h98d038aag0269g1b67g9a31g5e868e476219" version="2">Spend 2 energy point for an additional [1]</content>
   <content contentuid="h983c4a21g37dagc834ga03ag130b92538445" version="1">Cursed Strike: Large Boost</content>
-  <content contentuid="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="1">Spend 3 energy point for an additional 3d4 damage</content>
+  <content contentuid="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="2">Spend 3 energy point for an additional [1]</content>
+  <content contentuid="hfeeb404eg0f6cg559bg4e6fg463b0e5dca45" version="1">Cursed Strike</content>
+  <content contentuid="hff424597ga89fg5eb7g06fegc435a888ce05" version="1">Deals additional damage based on how many cursed energy points are spent</content>
+  <content contentuid="h88c57ed8gd42cg302cgc018gb2c22152fd25" version="1">Cursed Strike: Small Boost</content>
+  <content contentuid="h80165a41gfba0g8802g3dcfg2dba152f504c" version="1">Spend 1 energy point for an additional [1]</content>
+  <content contentuid="h0cfc4aedg8256g10bdgbab5g6a22ef346951" version="1">Cursed Strike: Medium Boost</content>
+  <content contentuid="h492e976dg954dgc977g5193g03a0932a8285" version="1">Spend 2 energy point for an additional [1]</content>
+  <content contentuid="ha1f045fdg71f0g8e62g9c06g322b2279398a" version="1">Cursed Strike: Large Boost</content>
+  <content contentuid="h3fb110dag0341gb7cagf162g08c1f51ec517" version="1">Spend 3 energy point for an additional [1]</content>
 </contentList>

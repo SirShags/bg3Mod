@@ -20,7 +20,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="36d4e62a-4a3b-4940-bb43-fbf04f097de7" />
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98d038aag0269g1b67g9a31g5e868e476219" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98d038aag0269g1b67g9a31g5e868e476219" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_2" />
@@ -34,7 +34,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0a2034ac-41c3-4160-8077-e0dccdb5ca9d" />
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h983c4a21g37dagc834ga03ag130b92538445" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_3" />

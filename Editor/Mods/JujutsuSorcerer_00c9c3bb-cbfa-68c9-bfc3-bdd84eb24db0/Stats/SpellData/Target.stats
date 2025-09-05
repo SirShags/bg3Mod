@@ -6,13 +6,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d1d4327c-b93d-4ad3-b026-694eabe7448f" />
         <field name="Name" type="NameTableFieldDefinition" value="Divergent_Fist" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage(LevelMapValue(Necrotic_Damage) , Necrotic);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f53567cg03dcg19dcg722bg8ee81a3b211c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;CursedEnergy:1;" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
       </fields>
@@ -23,20 +23,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="Flurry_of_Blows_Necrotic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);Cast2[DealDamage((LevelMapValue(Cursed_Damage))+DexterityModifier , Bludgeoning);DealDamage((LevelMapValue(Necrotic_Damage) , Necrotic);];" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage(LevelMapValue(Necrotic_Damage) , Necrotic);DealDamage(LevelMapValue(Cursed_Damage)+DexterityModifier , Bludgeoning);DealDamage(LevelMapValue(Necrotic_Damage) , Necrotic);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1, (LevelMapValue(Cursed_Damage))+DexterityModifier) , Bludgeoning);DealDamage(max(1, (LevelMapValue(Necrotic_Damage)) , Necrotic);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="25d3f283-08e3-44de-9926-211c2a3217ef" />
-        <field name="Name" type="NameTableFieldDefinition" value="UnarmedStrike_JujutsuSorcerer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6a35a7bb-7e69-40fa-8936-6cde46310451" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(Cursed_Damage) , Bludgeoning);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;CursedEnergy:1;" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
       </fields>
     </stat_object>
@@ -86,98 +77,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a2cb3e25-cbe7-4dc1-bfcb-a6c9a6c858d2" />
         <field name="Name" type="NameTableFieldDefinition" value="Cursed_Weapon_Enhancement_3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a2174d02-18ec-4b69-9b22-5fdbb8fd6f80" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Cursed_Strike_1;Target_Cursed_Strike_2;Target_Cursed_Strike_3;" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bbb54d0g7549ge850g5b3eg814e4b44246c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h03fd21e6ge95fg6254gd6b4g49022aa4d2e1" version="1" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c68c0e78-d893-4bc3-a303-936400b49e8d" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_1, 100, 5);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h916ddb8fg98dag739cg7f36gab50d2922e7f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbecbde17g1b75g0242gef44g3632e026d698" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4, Necrotic)" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_1, 100, 5);" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Buffed" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:1;" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7a47303a-4b00-4e2c-8ccc-15829f9029c2" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_2, 100, 5);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h980e963dg5ab9gebdfg0005gd532d81edd8c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1984f894g5991g52c4g31aagdbe84cfa4c78" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_2, 100, 5);" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Buffed" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:2;" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6ba4b9c8-edfb-4338-8a20-8e559adacd64" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cursed_Strike_3" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CURSED_STRIKE_3, 100, 5);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a2e3b6egd480g3c55g0ea6gbf2c8a87ca59" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0bdcdb78g217egfd31ge468gbd287040a80e" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="ApplyStatus(Cursed_Strike_3, 100, 5);" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Buffed" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;CursedEnergy:3;" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsConcentration;IsSpell;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Cursed_Strike" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Self();" />
       </fields>
     </stat_object>
   </stat_objects>

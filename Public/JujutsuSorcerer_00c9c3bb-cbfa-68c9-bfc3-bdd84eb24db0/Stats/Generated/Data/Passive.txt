@@ -1,5 +1,6 @@
 new entry "Cursed_Monk_Animation"
 type "PassiveData"
+data "Properties" "IsHidden"
 data "DynamicAnimationTag" "d559367e-4d27-402a-8898-a72fd5f20c8b"
 
 new entry "UnarmoredMovement_4"
