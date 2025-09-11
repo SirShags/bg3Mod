@@ -10,7 +10,7 @@
   <content contentuid="h3336c987g9a1cg7dcbg31bcg36b00de4744f" version="1">You are master in hand-to-hand combats, coating your fists in cursed energy to cause damage to your enemy.</content>
   <content contentuid="h89335f0agf452g3ec5g7bb6g8b44a16917d2" version="1">Cursed Strikes</content>
   <content contentuid="hb41af3edg50dfgf535g3fffgaf3a3498caaa" version="1">%%% Tech -Used for unlocking and removing Flurry of Blows Necrotic spell for Jujutsue Sorcerer</content>
-  <content contentuid="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="2">Cursed Combo</content>
+  <content contentuid="h50d7f43fg9987g29c1g855dgfde33323ec5a" version="3">Cursed Blast of Blows</content>
   <content contentuid="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1">Hit a target with two quick strikes dealing [1] and [2] for both strikes</content>
   <content contentuid="h5412dd8ag46b3ge3c7g4c8cg658e82937aab" version="1">Unarmored Movement</content>
   <content contentuid="hc122a7cage9bbg42a1g991ag532bc354a423" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] while you are not wearing armour or using a shield.</content>
@@ -40,17 +40,31 @@
   <content contentuid="h9a2e3b6egd480g3c55g0ea6gbf2c8a87ca59" version="1">Cursed Strike: Large Boost</content>
   <content contentuid="h0bdcdb78g217egfd31ge468gbd287040a80e" version="2">Spend 3 energy point for an additional [1]</content>
   <content contentuid="h97abc5e3g5145g4de7g5bc1g324024328293" version="1">Cursed Strike: Small Boost</content>
-  <content contentuid="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="1">Spend 1 energy point for an additional [1]</content>
+  <content contentuid="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="2">Spend 2 energy point for an additional [1] for a single attack</content>
   <content contentuid="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1">Cursed Strike: Medium Boost</content>
-  <content contentuid="h98d038aag0269g1b67g9a31g5e868e476219" version="2">Spend 2 energy point for an additional [1]</content>
+  <content contentuid="h98d038aag0269g1b67g9a31g5e868e476219" version="3">Spend 3 energy point for an additional [1] for a single attack</content>
   <content contentuid="h983c4a21g37dagc834ga03ag130b92538445" version="1">Cursed Strike: Large Boost</content>
-  <content contentuid="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="2">Spend 3 energy point for an additional [1]</content>
+  <content contentuid="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="3">Spend 4 energy point for an additional [1] for a single attack</content>
   <content contentuid="hfeeb404eg0f6cg559bg4e6fg463b0e5dca45" version="1">Cursed Strike</content>
-  <content contentuid="hff424597ga89fg5eb7g06fegc435a888ce05" version="1">Deals additional damage based on how many cursed energy points are spent</content>
+  <content contentuid="hff424597ga89fg5eb7g06fegc435a888ce05" version="2">Deals additional damage based on how many cursed energy points are spent for a single attack</content>
   <content contentuid="h88c57ed8gd42cg302cgc018gb2c22152fd25" version="1">Cursed Strike: Small Boost</content>
-  <content contentuid="h80165a41gfba0g8802g3dcfg2dba152f504c" version="1">Spend 1 energy point for an additional [1]</content>
+  <content contentuid="h80165a41gfba0g8802g3dcfg2dba152f504c" version="2">Spend 2 energy point for an additional [1]  for a single strike</content>
   <content contentuid="h0cfc4aedg8256g10bdgbab5g6a22ef346951" version="1">Cursed Strike: Medium Boost</content>
-  <content contentuid="h492e976dg954dgc977g5193g03a0932a8285" version="1">Spend 2 energy point for an additional [1]</content>
+  <content contentuid="h492e976dg954dgc977g5193g03a0932a8285" version="2">Spend 3 energy point for an additional [1] for a single strike</content>
   <content contentuid="ha1f045fdg71f0g8e62g9c06g322b2279398a" version="1">Cursed Strike: Large Boost</content>
-  <content contentuid="h3fb110dag0341gb7cagf162g08c1f51ec517" version="1">Spend 3 energy point for an additional [1]</content>
+  <content contentuid="h3fb110dag0341gb7cagf162g08c1f51ec517" version="2">Spend 4 energy point for an additional [1] for a single strike</content>
+  <content contentuid="haa2df16cg5bd6gfdadg09c8g3e5474c3f600" version="1">Cursed Armour</content>
+  <content contentuid="h9e4ffc10g5b73gf88fgb74cg4eb05b180767" version="1">Gain [1]</content>
+  <content contentuid="h92d84629g62f5gbf66g88aagf9fbd3c2d952" version="1">Cursed Armour</content>
+  <content contentuid="h3a2724e7gd73bgf9acg34b4g00708ba74766" version="1">Gain [1]</content>
+  <content contentuid="h8bb2a62fg4ae0gdab8g6bd0gf5543a349482" version="1">Cursed Armour</content>
+  <content contentuid="h6b10812eg1e85g9b8eg82b7g7f589fbdbac5" version="1">Gain [1]</content>
+  <content contentuid="h01389b49gd95fg3631gfc49gf971c334d2a2" version="1">Cursed Armour</content>
+  <content contentuid="hf178dd5fg88c4g5fb4g00beg8634d299bdd7" version="1">Gain temporary hitpoints for cursed energy spent times 3 for a minute or until they run out.</content>
+  <content contentuid="h7a32d61dge3e4g32e2gfe3dg5f15a3d48879" version="1">Cursed Armour</content>
+  <content contentuid="he93489d9gcbe9g0dfdg846ega5589565272f" version="1">Gain [1]</content>
+  <content contentuid="hbe5c92dbgb778gfcadg6c5fg2cb229755421" version="1">Cursed Armour</content>
+  <content contentuid="h610a57e7g1460ge7ecg2caage0a3078c0094" version="1">Gain [1]</content>
+  <content contentuid="h58c69632ge90bg3a02g2c0dga465467c005f" version="1">Cursed Armour</content>
+  <content contentuid="h1312325bga55agc447gf52egebf75ee359e7" version="1">Gain [1]</content>
 </contentList>

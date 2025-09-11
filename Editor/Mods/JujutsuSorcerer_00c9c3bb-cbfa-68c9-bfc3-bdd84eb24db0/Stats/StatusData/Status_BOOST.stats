@@ -6,12 +6,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="97f4a206-3806-4833-8658-6f02d97278e8" />
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97abc5e3g5145g4de7g5bc1g324024328293" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha23ca6f9g2ac5g816cg59a6g6a7269497157" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(1d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
@@ -20,12 +20,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="36d4e62a-4a3b-4940-bb43-fbf04f097de7" />
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98d038aag0269g1b67g9a31g5e868e476219" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98d038aag0269g1b67g9a31g5e868e476219" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(2d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
@@ -34,13 +34,55 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0a2034ac-41c3-4160-8077-e0dccdb5ca9d" />
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h983c4a21g37dagc834ga03ag130b92538445" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(3d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a94fb90-c897-44b9-9df5-d2cf1920a0bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="CURSED_ARMOR_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa2df16cg5bd6gfdadg09c8g3e5474c3f600" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e4ffc10g5b73gf88fgb74cg4eb05b180767" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(6)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CURSED_ARMOR_1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(6);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b541a717-f05c-432b-a86a-841e237a76d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CURSED_ARMOR_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92d84629g62f5gbf66g88aagf9fbd3c2d952" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a2724e7gd73bgf9acg34b4g00708ba74766" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(8)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CURSED_ARMOR_2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(8);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1dd5c28-8ddd-4278-a5b1-ec3bbd7853a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="CURSED_ARMOR_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bb2a62fg4ae0gdab8g6bd0gf5543a349482" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b10812eg1e85g9b8eg82b7g7f589fbdbac5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(12)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CURSED_ARMOR_3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(12);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
