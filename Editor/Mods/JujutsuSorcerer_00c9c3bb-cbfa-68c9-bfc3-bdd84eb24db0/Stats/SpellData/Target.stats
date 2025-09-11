@@ -12,7 +12,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5371681g704ag4735g6f5fgfb251dff6d5d" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;CursedEnergy:1;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;CursedEnergy:1;" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
       </fields>
@@ -27,7 +27,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he087f736g6899g7463gdaf2g6bfbb36d4300" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,LevelMapValue(Cursed_Damage)+DexterityModifier) , Bludgeoning);DealDamage(max(1,LevelMapValue(Necrotic_Damage)) , Necrotic);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;CursedEnergy:1;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;CursedEnergy:1;" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
       </fields>
     </stat_object>

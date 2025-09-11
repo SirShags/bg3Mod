@@ -10,8 +10,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(1d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsStatusEvent(StatusEvent.OnAttack)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(1d4, Necrotic);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
@@ -24,8 +24,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(2d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsStatusEvent(StatusEvent.OnAttack)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(2d4, Necrotic);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
@@ -38,8 +38,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_3" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(3d4, Necrotic);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsStatusEvent(StatusEvent.OnAttack)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(3d4, Necrotic);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsMeleeUnarmedAttack() or IsMeleeRangedAttack()) and not IsMiss()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
