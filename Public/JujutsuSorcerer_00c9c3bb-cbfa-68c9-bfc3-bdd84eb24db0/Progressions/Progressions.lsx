@@ -10,7 +10,7 @@
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="PassivesAdded" type="LSString" value="Taijutsu_DextrousUnarmedAttack;Taijutsu_UnarmedDamage;Taijutsu_BonusUnarmedStrike;Monk_SoundSwitch;Cursed_Monk_Animation;UnarmoredMovement_1;UnarmouredDefense_JujutsuSorcerer;CursedEnergyModifier"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019,AbilityBonus,2,1);SelectSkills(958927a2-071d-4332-a99b-bd6036616d8f,2)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(57b04525-a053-408e-9ebe-370179327019,AbilityBonus,2,1);SelectSkills(958927a2-071d-4332-a99b-bd6036616d8f,2)"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="0c05ec1e-4309-4c4c-8222-30bb116e6724"/>
                     <children>
@@ -38,7 +38,7 @@
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(a2baff90-26c9-4350-ac5f-74a2a78375da)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(a2baff90-26c9-4350-ac5f-74a2a78375da,1,0)"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="7fa2bf1b-8439-4025-b524-c2fe3f07d81b"/>
                 </node>
@@ -135,6 +135,91 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
                     <attribute id="UUID" type="guid" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="28727984-c362-4bd5-98ac-24d396409e80"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="88be7e38-2886-4b8e-9eef-3eb4598c2e3a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c3b0920c-6215-4c35-a6f4-8ebec0ff1f45);"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="51901339-b459-4890-be85-3b2386f0fc7d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="e6aa5a34-bcb5-4a4e-8e4c-346b99e93448"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="2395abfe-fe57-4b54-b40c-b9ba4fc6d1b2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="48cfa227-0d14-4c98-b772-4c267e1bd707"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="5a115c6d-3ac7-4f80-a922-fad8f93a30a8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="179db3a5-4810-4c97-a4ec-dc608ce60beb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="dee4b98f-f197-4dac-a81a-e92ded1424c0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="5b25a983-4d85-412f-b8c5-dbfca2abc4a4"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="6ac84209-9190-4866-8d3f-4a035cc3bcc7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
+                    <attribute id="UUID" type="guid" value="fff35ebe-bdda-438b-aedb-2de73c5cedca"/>
                 </node>
             </children>
         </node>

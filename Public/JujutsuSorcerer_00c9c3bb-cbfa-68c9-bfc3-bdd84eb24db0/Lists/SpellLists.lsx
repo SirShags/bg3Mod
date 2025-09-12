@@ -10,8 +10,8 @@
                     <attribute id="UUID" type="guid" value="c3b0920c-6215-4c35-a6f4-8ebec0ff1f45"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Select_level_2_spells"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Cursed_Strike;Shout_Cursed_Armor"/>
+                    <attribute id="Name" type="FixedString" value="select_level_2_spells"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Cursed_Strike;Shout_Cursed_Armor;"/>
                     <attribute id="UUID" type="guid" value="a2baff90-26c9-4350-ac5f-74a2a78375da"/>
                 </node>
                 <node id="SpellList">

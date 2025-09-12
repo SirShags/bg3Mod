@@ -21,7 +21,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02e3df51gbff5gcc9fge093g40eb2a1e72c7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98d038aag0269g1b67g9a31g5e868e476219" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_BigHeal" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(2d4, Necrotic);" />
@@ -35,7 +35,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CURSED_STRIKE_3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h983c4a21g37dagc834ga03ag130b92538445" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc27fb95g9983g1ad5g0060gbc1489720d50" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_Cure" />
         <field name="StackId" type="StringTableFieldDefinition" value="CURSED_STRIKE_3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):DamageBonus(3d4, Necrotic);" />
@@ -83,6 +83,31 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(12);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8173a2df-008a-49b7-9d85-72cf30ec14be" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEMICURSED_WEAPON" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h547ec0e9g0f88gfde7gca81gfc0cd19819b5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b6b33a5g205fg9f67g63c2g358c6b8e9c8d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(CharismaModifier, Force)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SEMICURSED_WEAPON" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamage(CharismaModifier, Force);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ac74041-8392-4ff2-b426-7122becaeb72" />
+        <field name="Name" type="NameTableFieldDefinition" value="CURSED_WEAPON_ENHANCEMENT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02292e48ga9cbg9293g67e5gf8130744bd78" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bb57742g2a48g44e1gcf53g8ed0e3b86c37" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4, Force)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CURSED_WEAPON_ENHANCEMENT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamage(1d4, Force);" />
       </fields>
     </stat_object>
   </stat_objects>

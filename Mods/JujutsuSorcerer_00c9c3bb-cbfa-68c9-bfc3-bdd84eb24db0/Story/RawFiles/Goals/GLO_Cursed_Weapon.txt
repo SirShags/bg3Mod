@@ -1,0 +1,45 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_SH_WeaponBuffTracker((CHARACTER)_Caster,(ITEM)_Weapon,(INTEGER)_Count)
+DB_SH_WeaponBuffTracker((CHARACTER)NULL_00000000-0000-0000-0000-000000000000,(ITEM)NULL_00000000-0000-0000-0000-000000000000,0);
+KBSECTION
+// Case where buff has been cast for the first time by this caster and weapon
+IF
+StatusApplied((ITEM)_Weapon, "CURSED_WEAPON_ENHANCEMENT", (CHARACTER)_Caster, _)
+AND
+NOT DB_SH_WeaponBuffTracker(_Caster,_Weapon,_)
+THEN
+DB_SH_WeaponBuffTracker(_Caster,_Weapon,1);
+
+// Case where buff has been cast before by caster on weapon
+IF
+StatusApplied((ITEM)_Weapon, "CURSED_WEAPON_ENHANCEMENT", (CHARACTER)_Caster, _)
+AND
+DB_SH_WeaponBuffTracker(_Caster,_Weapon,_Count)
+THEN
+PROC_SH_HandleBuffApplied(_Caster,_Weapon,_Count);
+
+// PROC to handle incrementing
+PROC
+PROC_SH_HandleBuffApplied((CHARACTER)_Caster,(ITEM)_Weapon,(INTEGER)_Count)
+AND
+_Count < 24
+AND
+IntegerSum(_Count, 1, _NewCount)
+THEN
+NOT DB_SH_WeaponBuffTracker(_Caster,_Weapon,_Count);
+DB_SH_WeaponBuffTracker(_Caster,_Weapon,_NewCount);
+
+// PROC to handle final effect
+PROC
+PROC_SH_HandleBuffApplied((CHARACTER)_Caster,(ITEM)_Weapon,24)
+THEN
+ApplyStatus(_Weapon, "SEMICURSED_WEAPON", -1.0, 1, _Caster);
+//Just hard code updates to DB to prevent re-application
+NOT DB_SH_WeaponBuffTracker(_Caster,_Weapon,24);
+DB_SH_WeaponBuffTracker(_Caster,_Weapon,25);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"
