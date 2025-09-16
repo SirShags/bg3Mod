@@ -1,0 +1,11 @@
+new entry "No_Water"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha84b2050gd278ga348g6ffagb6b015b9231e;1"
+data "Description" "hadc76bccgbe3ag9f92g43b7g0ee31406bbf1;1"
+data "Icon" "PassiveFeature_DampenElements"
+data "StackId" "No_Water"
+data "Boosts" "Advantage(AttackTarget);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);ActionResourceConsumeMultiplier(Movement, 4,0);MovementSpeedLimit(Walk);"
+data "RemoveConditions" "not HasStatus('WET')"
+data "RemoveEvents" "OnTurn"
+

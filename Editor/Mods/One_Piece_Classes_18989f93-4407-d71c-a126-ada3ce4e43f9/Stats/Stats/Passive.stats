@@ -5,10 +5,20 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0f9f8f3c-cd84-4477-a24d-02792651f96e" />
         <field name="Name" type="NameTableFieldDefinition" value="No_Water" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5feb0fc2g88cagac14g7547g658a2fb58b51" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5feb0fc2g88cagac14g7547g658a2fb58b51" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b" version="2" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(HasStatus('WET'));" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ApplyStatus(&quot;No_Water&quot;);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DampenElements" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8302ca25-6727-4ccf-9d6e-ceef15cfe94b" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmouredDefense_Rubber" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e99f870gb936gd4e4gbb42gb77e17cc91c1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Evasion" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Lightning, Immune);Resistance(Piercing,Vulnerable);Resistance(Slashing,Vulnerable);" />
       </fields>
     </stat_object>
   </stat_objects>

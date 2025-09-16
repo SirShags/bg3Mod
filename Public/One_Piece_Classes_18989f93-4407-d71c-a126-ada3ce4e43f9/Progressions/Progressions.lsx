@@ -5,6 +5,7 @@
         <node id="root">
             <children>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,2);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="DevilFruit_User"/>
                     <attribute id="PassivesAdded" type="LSString" value="No_Water"/>
@@ -13,6 +14,7 @@
                     <attribute id="UUID" type="guid" value="fd8ca882-5e01-4724-a61c-81b8268e5f81"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,2);"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="DevilFruit_User"/>
@@ -22,7 +24,6 @@
                     <attribute id="UUID" type="guid" value="29c9dc33-2e3b-47f0-8936-cf741fea6498"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,2)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnarmouredDefense_Rubber;StrDex_UnarmedAttacks;Bonus_StrDex_Bonus_UnarmedAttack;UnarmoredMovement_1;DeflectMissiles"/>
@@ -46,7 +47,6 @@
                     <attribute id="UUID" type="guid" value="cd3ac752-2e1f-4a5e-823f-2117869ea0df"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -78,7 +78,6 @@
                     <attribute id="UUID" type="guid" value="828da82c-938a-4a71-a545-0fc9abd6d52c"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -109,13 +108,103 @@
                     <attribute id="UUID" type="guid" value="3ca7ff1d-3687-48b5-9727-03b357020e74"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
                     <attribute id="PassivesAdded" type="LSString" value="ExtraAttack;ExtraStretchy_2"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
                     <attribute id="UUID" type="guid" value="b0657892-fea6-4139-90e4-e206d3137686"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="afa366d3-ea16-4bfb-8846-caed7ffae018"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="b07ede86-bd22-4459-97bb-54e88d622db9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="e27896b9-d842-487d-9929-7e8d13aebb63"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="3d21e506-d44c-4f04-be1e-39f10fbfbf59"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="2725d4ce-bd34-4e24-b666-6fbb615fdc07"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="c12aacd8-1955-40b2-ab27-a937b7f4a06f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="f3029d78-e889-4213-804f-8a3bd9c01e75"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="3fd0894c-6ec4-49a7-8456-5a7007481862"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="7a1136d2-d101-460d-87d0-79a30af29972"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="6cd5b669-3870-42c3-a948-b68ed129ab04"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,1);"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="3bf90ce1-9f53-40ee-ba10-b887cab4009d"/>
                 </node>
             </children>
         </node>
