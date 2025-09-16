@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h87a95f2fg1b80g3c4eg0031g4c450b421620" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5f79c8c8gcbfbg01b3g2872g19c529a98072" version="1"/>
+                    <attribute id="Name" type="FixedString" value="DF_Points"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="10136b05-810e-4d39-959d-6018b83145b4"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

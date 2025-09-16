@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f5ff6819-b85f-4381-a80d-e027f6499a4a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fc2d36fg30b0g1e6ag89afgf875f3e8d47b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he741ef07g5585g7b3dg5696g961e87336230" version="2" />
+        <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="EnergyEnhancement" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="bec8dedd-eb51-43ba-af86-02130b816322" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

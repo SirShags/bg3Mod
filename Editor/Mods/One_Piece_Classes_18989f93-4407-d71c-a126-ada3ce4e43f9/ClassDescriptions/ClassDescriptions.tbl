@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09c6d94c-6fae-4685-a283-c4cdc6a7152a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DevilFruit_User" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h210e1062g016eg1826g99d5gf91da77f6d3a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0ba76aeg703eg71c5ga574gb18d50398080" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f" />
+        <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="36cdd60b-fe70-4160-9c07-5ac277a675a0" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="09c6d94c-6fae-4685-a283-c4cdc6a7152a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95b7241fg2864ga1cdg42ffgef2436246bb8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f55e8c0g99eegc396g5dd2gf95b90f74f66" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

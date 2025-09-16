@@ -12,7 +12,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a2baff90-26c9-4350-ac5f-74a2a78375da" />
         <field name="Name" type="NameTableFieldDefinition" value="select_level_2_spells" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Cursed_Strike;Shout_Cursed_Armor;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Cursed_Strike;Shout_Cursed_Armor;Shout_Cursed_Weapon_Enchantment" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

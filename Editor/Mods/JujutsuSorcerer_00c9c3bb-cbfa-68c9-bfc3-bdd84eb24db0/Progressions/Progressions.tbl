@@ -37,7 +37,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CursedEnergy,2,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(a2baff90-26c9-4350-ac5f-74a2a78375da,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(a2baff90-26c9-4350-ac5f-74a2a78375da,1,0,EnergyEnhancement,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

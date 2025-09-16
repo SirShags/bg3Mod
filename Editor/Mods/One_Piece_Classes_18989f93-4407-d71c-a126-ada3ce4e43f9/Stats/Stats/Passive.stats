@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f9f8f3c-cd84-4477-a24d-02792651f96e" />
+        <field name="Name" type="NameTableFieldDefinition" value="No_Water" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5feb0fc2g88cagac14g7547g658a2fb58b51" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(HasStatus('WET'));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ApplyStatus(&quot;No_Water&quot;);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

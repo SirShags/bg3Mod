@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="PassivesAdded" type="LSString" value="No_Water"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="fd8ca882-5e01-4724-a61c-81b8268e5f81"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DevilFruit_User"/>
+                    <attribute id="PassivesAdded" type="LSString" value="No_Water"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="29c9dc33-2e3b-47f0-8936-cf741fea6498"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(DF_Points,2)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnarmouredDefense_Rubber;StrDex_UnarmedAttacks;Bonus_StrDex_Bonus_UnarmedAttack;UnarmoredMovement_1;DeflectMissiles"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="161450cb-b76f-4f7c-ade5-fe5ebcd0fa06"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="f43ea02d-7369-4ed8-9681-c9c32add14f9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Meat"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="cd3ac752-2e1f-4a5e-823f-2117869ea0df"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="0c6ada56-2276-405f-89e3-290b301f578a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack;ExtraStretchy_1"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="431846d4-eb2b-4797-866f-f610854c8361"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnarmoredMovement_2"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="3566ae98-94cd-4ea7-937e-1faedc25100a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Evasion"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="828da82c-938a-4a71-a545-0fc9abd6d52c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="7c566e6e-b4aa-4707-8915-bea63aa22c72"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="f93c5987-3d84-4790-8bde-719de0649226"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(BonusActionPoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnarmoredMovement_3;UnconciousHaki"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="ce7ea6bb-2601-484f-b806-b6e26b841ad5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="3ca7ff1d-3687-48b5-9727-03b357020e74"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="GomuGomu_NoMi"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack;ExtraStretchy_2"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="b0657892-fea6-4139-90e4-e206d3137686"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

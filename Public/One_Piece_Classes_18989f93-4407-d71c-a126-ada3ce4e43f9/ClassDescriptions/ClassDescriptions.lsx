@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h8f55e8c0g99eegc396g5dd2gf95b90f74f66" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h95b7241fg2864ga1cdg42ffgef2436246bb8" version="1"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="GomuGomu_NoMi"/>
+                    <attribute id="ParentGuid" type="guid" value="09c6d94c-6fae-4685-a283-c4cdc6a7152a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="36cdd60b-fe70-4160-9c07-5ac277a675a0"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf0ba76aeg703eg71c5ga574gb18d50398080" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h210e1062g016eg1826g99d5gf91da77f6d3a" version="1"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="Name" type="FixedString" value="DevilFruit_User"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f"/>
+                    <attribute id="UUID" type="guid" value="09c6d94c-6fae-4685-a283-c4cdc6a7152a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

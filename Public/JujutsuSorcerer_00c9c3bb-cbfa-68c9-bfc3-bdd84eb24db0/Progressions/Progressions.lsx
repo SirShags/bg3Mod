@@ -38,7 +38,7 @@
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="JujutsuSorcerer"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(a2baff90-26c9-4350-ac5f-74a2a78375da,1,0)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(a2baff90-26c9-4350-ac5f-74a2a78375da,1,0,EnergyEnhancement,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="bec8dedd-eb51-43ba-af86-02130b816322"/>
                     <attribute id="UUID" type="guid" value="7fa2bf1b-8439-4025-b524-c2fe3f07d81b"/>
                 </node>
@@ -134,14 +134,14 @@
                     <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
-                    <attribute id="UUID" type="guid" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2"/>
+                    <attribute id="UUID" type="guid" value="28727984-c362-4bd5-98ac-24d396409e80"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="TaijutsuMaster"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="4290db4d-4b4e-414e-a44f-2b8c1d877133"/>
-                    <attribute id="UUID" type="guid" value="28727984-c362-4bd5-98ac-24d396409e80"/>
+                    <attribute id="UUID" type="guid" value="e0bab1e5-d0de-4122-90d1-f485a42fbad2"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="2"/>

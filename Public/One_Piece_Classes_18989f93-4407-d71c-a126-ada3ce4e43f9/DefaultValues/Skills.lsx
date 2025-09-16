@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Survival;Athletics"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SubclassUUID" type="guid" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e"/>
+                    <attribute id="UUID" type="guid" value="ac107fd4-afe0-4862-88b2-270f9c0162d4"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd8ca882-5e01-4724-a61c-81b8268e5f81" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="No_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="29c9dc33-2e3b-47f0-8936-cf741fea6498" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1f982b75-88ff-49a1-9ce8-3469d8f94e7f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="No_Water" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="161450cb-b76f-4f7c-ade5-fe5ebcd0fa06" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmouredDefense_Rubber;StrDex_UnarmedAttacks;Bonus_StrDex_Bonus_UnarmedAttack;UnarmoredMovement_1;DeflectMissiles" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f43ea02d-7369-4ed8-9681-c9c32add14f9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cd3ac752-2e1f-4a5e-823f-2117869ea0df" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Meat" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0c6ada56-2276-405f-89e3-290b301f578a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="431846d4-eb2b-4797-866f-f610854c8361" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;ExtraStretchy_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3566ae98-94cd-4ea7-937e-1faedc25100a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="828da82c-938a-4a71-a545-0fc9abd6d52c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Evasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7c566e6e-b4aa-4707-8915-bea63aa22c72" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f93c5987-3d84-4790-8bde-719de0649226" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce7ea6bb-2601-484f-b806-b6e26b841ad5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_3;UnconciousHaki" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BonusActionPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ca7ff1d-3687-48b5-9727-03b357020e74" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b0657892-fea6-4139-90e4-e206d3137686" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;ExtraStretchy_2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,7 @@
+new entry "No_Water"
+type "PassiveData"
+data "DisplayName" "h5feb0fc2g88cagac14g7547g658a2fb58b51;1"
+data "Description" "h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b;1"
+data "BoostConditions" "IF(HasStatus('WET'));"
+data "Boosts" "ApplyStatus("No_Water");"
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="db45b32f-877a-45bd-afb5-32e7d415d1e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ac107fd4-afe0-4862-88b2-270f9c0162d4" />
+        <field name="SubclassUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Survival;Athletics" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
