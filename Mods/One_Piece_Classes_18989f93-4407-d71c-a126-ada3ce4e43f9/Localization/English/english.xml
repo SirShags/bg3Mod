@@ -10,5 +10,10 @@
   <content contentuid="h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b" version="2">You made an enemy with the Sea God and now when you are &lt;LSTag Tooltip="Wet"&gt;Wet&lt;/LSTag&gt; all attacks on you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, &lt;LSTag Tooltip="Movement"&gt;Movement&lt;/LSTag&gt; is quartered, and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; saving throws.</content>
   <content contentuid="ha84b2050gd278ga348g6ffagb6b015b9231e" version="1">Curse of the Sea God</content>
   <content contentuid="hadc76bccgbe3ag9f92g43b7g0ee31406bbf1" version="1">Devil Fruit users are when submerged in water are lose energy to fight and become sluggish. Attacks at the owner now have &lt;LSTag Toolkit="advantage"&gt;advantage&lt;/LSTag&gt; while &lt;LSTag Toolkit="wet"&gt;wet&lt;/LSTag&gt;.</content>
-  <content contentuid="h7e99f870gb936gd4e4gbb42gb77e17cc91c1" version="1">As a rubber man you have a &lt;LSTag Tooltip="Resistence "&gt;Resistence&lt;/LSTag&gt; to &lt;LSTag Tooltip="Bludgeoning"&gt;Bludgeoning&lt;/LSTag&gt; and an &lt;LSTag Tooltip="Immunity"&gt;Immunity&lt;/LSTag&gt;. You are also weak against &lt;LSTag Tooltip="Piercing"&gt;Piercing&lt;/LSTag&gt; and &lt;LSTag Tooltip="Slashing"&gt;Slashing&lt;/LSTag&gt;</content>
+  <content contentuid="h7e99f870gb936gd4e4gbb42gb77e17cc91c1" version="2">As a rubber man you have a &lt;LSTag Tooltip="Resistence "&gt;Resistence&lt;/LSTag&gt; to &lt;LSTag Tooltip="Bludgeoning"&gt;Bludgeoning&lt;/LSTag&gt; and an &lt;LSTag Tooltip="Immunity"&gt;Immunity&lt;/LSTag&gt;.</content>
+  <content contentuid="h009774f5gca91ge702g2450g9a1f0defa978" version="1">I'm a rubber man</content>
+  <content contentuid="h1b0a14b9g7f47g7deegb161g8be8a07da0ae" version="1">Ow! That hurts! - Slashing</content>
+  <content contentuid="hd2c05921g2f37g1d4egf236g270612f843f1" version="1">Due to your rubber body you have a weakness to slashing damage.</content>
+  <content contentuid="hf909b1c9g4a20g743eg378fg5ce50e9a21dc" version="1">Ow! That hurts! - Piercing</content>
+  <content contentuid="h2d216bf3gc98agf5c5g34cbg3a717236b054" version="1">Due to your rubber body you have a weakness to piercing damage.</content>
 </contentList>

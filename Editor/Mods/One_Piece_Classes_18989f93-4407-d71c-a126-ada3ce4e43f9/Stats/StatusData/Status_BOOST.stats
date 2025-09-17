@@ -4,14 +4,14 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4eee4941-0694-42c0-82a3-264732c22933" />
-        <field name="Name" type="NameTableFieldDefinition" value="No_Water" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFGG_NO_WATER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha84b2050gd278ga348g6ffagb6b015b9231e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadc76bccgbe3ag9f92g43b7g0ee31406bbf1" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DampenElements" />
-        <field name="StackId" type="StringTableFieldDefinition" value="No_Water" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);ActionResourceConsumeMultiplier(Movement, 4,0);MovementSpeedLimit(Walk);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="NO_WATER" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('WET')" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);ActionResourceConsumeMultiplier(Movement, 4,0);MovementSpeedLimit(Walk);" />
       </fields>
     </stat_object>
   </stat_objects>

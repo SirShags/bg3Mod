@@ -9,8 +9,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="No_Water" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,2);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DFGG_No_Water" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,2,0);" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="36cdd60b-fe70-4160-9c07-5ac277a675a0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -21,9 +22,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="No_Water" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DFGG_No_Water" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,2);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,2,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -34,7 +35,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -45,7 +46,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -56,7 +57,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="4" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
@@ -68,7 +69,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -79,7 +80,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -90,7 +91,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -101,7 +102,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="8" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
@@ -113,7 +114,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -124,7 +125,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -135,7 +136,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -146,7 +147,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DevilFruit_User" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DF_Points,1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DFGG_Points,1,0);" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
@@ -158,7 +159,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmouredDefense_Rubber;StrDex_UnarmedAttacks;Bonus_StrDex_Bonus_UnarmedAttack;UnarmoredMovement_1;DeflectMissiles" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DFGG_UnarmouredDefense_Rubber;DFGG_StrDex_UnarmedAttacks;DFGG_Bonus_StrDex_Bonus_UnarmedAttack;UnarmoredMovement_1;DeflectMissiles;DFGG_SlashingWeakness;DFGG_PiercingWeakness" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Lightning, Immune);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilityBonus(bf0d5650-7fb1-4bfa-beed-fa2033ee900a,AbilityBonus,2,1);SelectSkills(22f0b615-a73a-4f44-80f4-64657b39bbbd,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -179,7 +182,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Meat" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -200,7 +202,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;ExtraStretchy_1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -253,7 +255,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_3;UnconciousHaki" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_3;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BonusActionPoint,1,0)" />
       </fields>
     </stat_object>
@@ -275,7 +277,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GomuGomu_NoMi" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;ExtraStretchy_2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;" />
       </fields>
     </stat_object>
   </stat_objects>

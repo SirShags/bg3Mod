@@ -4,21 +4,53 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0f9f8f3c-cd84-4477-a24d-02792651f96e" />
-        <field name="Name" type="NameTableFieldDefinition" value="No_Water" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFGG_No_Water" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5feb0fc2g88cagac14g7547g658a2fb58b51" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h292b2444g2c13ga3acgbcc5g2c61a5ebbe3b" version="2" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(HasStatus('WET'));" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ApplyStatus(&quot;No_Water&quot;);" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DampenElements" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DFGG_NO_WATER, 100, -1);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WET');" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8302ca25-6727-4ccf-9d6e-ceef15cfe94b" />
-        <field name="Name" type="NameTableFieldDefinition" value="UnarmouredDefense_Rubber" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e99f870gb936gd4e4gbb42gb77e17cc91c1" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFGG_UnarmouredDefense_Rubber" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e99f870gb936gd4e4gbb42gb77e17cc91c1" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Evasion" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Lightning, Immune);Resistance(Piercing,Vulnerable);Resistance(Slashing,Vulnerable);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,True,Dexterity,Strength);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h009774f5gca91ge702g2450g9a1f0defa978" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ae78913-4de9-41b5-8d20-381cdb9738a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFGG_SlashingWeakness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b0a14b9g7f47g7deegb161g8be8a07da0ae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2c05921g2f37g1d4egf236g270612f843f1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeSlashing(context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DamageTakenBonus(3,Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88109d9f-76a3-43bf-a3bf-08db00fb5714" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFGG_PiercingWeakness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf909b1c9g4a20g743eg378fg5ce50e9a21dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d216bf3gc98agf5c5g34cbg3a717236b054" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePiercing()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DamageTakenBonus(3,Piercing);" />
       </fields>
     </stat_object>
   </stat_objects>

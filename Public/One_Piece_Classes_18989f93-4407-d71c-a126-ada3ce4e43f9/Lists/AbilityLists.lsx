@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="AbilityLists">
+        <node id="root">
+            <children>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="DFGG_SelectAbility"/>
+                    <attribute id="UUID" type="guid" value="bf0d5650-7fb1-4bfa-beed-fa2033ee900a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

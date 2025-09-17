@@ -13,6 +13,9 @@
         <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="False" />
         <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
         <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Monk" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -26,6 +29,11 @@
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="38da4e05-0aca-4669-9c9a-f43c4df63d0e" />
         <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Monk" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
   </stat_objects>
